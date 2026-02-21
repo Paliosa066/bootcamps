@@ -1,0 +1,28 @@
+version: '3.8'
+
+# Definição dos serviços (Microsserviços)
+services:
+  # Serviço de Banco de Dados
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'meubanco'
+      MYSQL_ROOT_PASSWORD: 'senha'
+    volumes:
+      - db_data:/var/lib/mysql
+
+  # Serviço do Servidor Web
+  web:
+    image: php:7.4-apache
+    restart: always
+    ports:
+      - "80:80"
+    volumes:
+      - ./site:/var/www/html/
+    depends_on:
+      - db
+
+# Volumes para persistência de dados
+volumes:
+  db_data:

@@ -11,6 +11,8 @@ Laboratórios práticos focados em exploração de vulnerabilidades, documentand
   * *Técnicas:* Nmap, Enum4linux, Null Sessions, Brute Force, SMBClient.
 * **[Ataque DoS em Windows RDP (MS12-020)](./DoS_Windows_RDP/)**
   * *Técnicas:* Metasploit Framework, DoS, Memory Corruption, Exploração de RDP.
+* **[Simulação de Ataque SSH: Força Bruta e Acesso Inicial](./Exploracao_SSH/)**
+  * *Técnicas:* Metasploit Framework, Brute Force, Wordlists, Initial Access.    
 
 ## Infraestrutura e DevOps
 Projetos de automação e configuração de servidores baseados em Linux.

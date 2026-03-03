@@ -9,6 +9,8 @@ Laboratórios práticos focados em exploração de vulnerabilidades, documentand
   * *Técnicas:* Metasploit Framework, Supply Chain Attack, Reverse Shell, CTF Flag Capture.
 * **[Simulação de Ataque SMB: Enumeração e Password Spraying com Medusa](./Projeto_Ataque_SMB/)**
   * *Técnicas:* Nmap, Enum4linux, Null Sessions, Brute Force, SMBClient.
+* **[Ataque DoS em Windows RDP (MS12-020)](./DoS_Windows_RDP/)**
+  * *Técnicas:* Metasploit Framework, DoS, Memory Corruption, Exploração de RDP.
 
 ## Infraestrutura e DevOps
 Projetos de automação e configuração de servidores baseados em Linux.
